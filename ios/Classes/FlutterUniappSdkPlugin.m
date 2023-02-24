@@ -1,4 +1,5 @@
 #import "FlutterUniappSdkPlugin.h"
+#import "DCUniMP.h"
 
 @implementation FlutterUniappSdkPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
@@ -7,6 +8,7 @@
             binaryMessenger:[registrar messenger]];
   FlutterUniappSdkPlugin* instance = [[FlutterUniappSdkPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
+    [registrar addApplicationDelegate:instance];
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
@@ -15,6 +17,16 @@
   } else {
     result(FlutterMethodNotImplemented);
   }
+}
+
+
+#pragma mark - 生命周期
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    // 配置参数
+    NSMutableDictionary *options = [NSMutableDictionary dictionaryWithDictionary:launchOptions];
+    [options setObject:[NSNumber numberWithBool: YES] forKey:@"debug"];
+    [DCUniMPSDKEngine initSDKEnvironmentWithLaunchOptions:options];
+    return YES;
 }
 
 @end

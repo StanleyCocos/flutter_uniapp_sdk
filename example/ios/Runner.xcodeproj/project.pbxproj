@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		327FC1595D38FA1533BFB3C8 /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB0BEE3759E2AFA341F3F8 /* libPods-Runner.a */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */; };
 		97C146F31CF9000F007C117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C146F21CF9000F007C117D /* main.m */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		EECF343F29A88EF7006D0B87 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF343E29A88EF7006D0B87 /* JavaScriptCore.framework */; };
+		EECF344129A88EFF006D0B87 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344029A88EFF006D0B87 /* CoreMedia.framework */; };
+		EECF344329A88F08006D0B87 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344229A88F08006D0B87 /* MediaPlayer.framework */; };
+		EECF344529A88F0F006D0B87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344429A88F0F006D0B87 /* AVFoundation.framework */; };
+		EECF344729A88F16006D0B87 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344629A88F16006D0B87 /* AVKit.framework */; };
+		EECF344929A88F1C006D0B87 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344829A88F1C006D0B87 /* GLKit.framework */; };
+		EECF344B29A88F23006D0B87 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344A29A88F23006D0B87 /* OpenGLES.framework */; };
+		EECF344D29A88F2A006D0B87 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344C29A88F2A006D0B87 /* CoreText.framework */; };
+		EECF344F29A88F30006D0B87 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF344E29A88F30006D0B87 /* QuartzCore.framework */; };
+		EECF345129A88F37006D0B87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF345029A88F37006D0B87 /* CoreGraphics.framework */; };
+		EECF345329A88F43006D0B87 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF345229A88F43006D0B87 /* libc++.tbd */; };
+		EECF345529A88F4A006D0B87 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF345429A88F4A006D0B87 /* QuickLook.framework */; };
+		EECF345729A88F51006D0B87 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF345629A88F51006D0B87 /* CoreTelephony.framework */; };
+		EECF345929A88F5A006D0B87 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF345829A88F5A006D0B87 /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +48,7 @@
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		5B4F8E36D66F2E72F65B47CD /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +60,23 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAB0BEE3759E2AFA341F3F8 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E468C0A6DB635F367D770842 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		E8A437B4B3BE6D2B567B9F06 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		EECF343E29A88EF7006D0B87 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EECF344029A88EFF006D0B87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EECF344229A88F08006D0B87 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EECF344429A88F0F006D0B87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EECF344629A88F16006D0B87 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		EECF344829A88F1C006D0B87 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EECF344A29A88F23006D0B87 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EECF344C29A88F2A006D0B87 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EECF344E29A88F30006D0B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EECF345029A88F37006D0B87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EECF345229A88F43006D0B87 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EECF345429A88F4A006D0B87 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		EECF345629A88F51006D0B87 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EECF345829A88F5A006D0B87 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +84,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECF345929A88F5A006D0B87 /* libiconv.tbd in Frameworks */,
+				EECF345729A88F51006D0B87 /* CoreTelephony.framework in Frameworks */,
+				EECF345529A88F4A006D0B87 /* QuickLook.framework in Frameworks */,
+				EECF345329A88F43006D0B87 /* libc++.tbd in Frameworks */,
+				EECF345129A88F37006D0B87 /* CoreGraphics.framework in Frameworks */,
+				EECF344F29A88F30006D0B87 /* QuartzCore.framework in Frameworks */,
+				EECF344D29A88F2A006D0B87 /* CoreText.framework in Frameworks */,
+				EECF344B29A88F23006D0B87 /* OpenGLES.framework in Frameworks */,
+				EECF344929A88F1C006D0B87 /* GLKit.framework in Frameworks */,
+				EECF344729A88F16006D0B87 /* AVKit.framework in Frameworks */,
+				EECF344529A88F0F006D0B87 /* AVFoundation.framework in Frameworks */,
+				EECF344329A88F08006D0B87 /* MediaPlayer.framework in Frameworks */,
+				EECF344129A88EFF006D0B87 /* CoreMedia.framework in Frameworks */,
+				EECF343F29A88EF7006D0B87 /* JavaScriptCore.framework in Frameworks */,
+				327FC1595D38FA1533BFB3C8 /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670DBD3698EF472D330C5139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8A437B4B3BE6D2B567B9F06 /* Pods-Runner.debug.xcconfig */,
+				5B4F8E36D66F2E72F65B47CD /* Pods-Runner.release.xcconfig */,
+				E468C0A6DB635F367D770842 /* Pods-Runner.profile.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FB1C360FE48AF684C4BA918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECF345829A88F5A006D0B87 /* libiconv.tbd */,
+				EECF345629A88F51006D0B87 /* CoreTelephony.framework */,
+				EECF345429A88F4A006D0B87 /* QuickLook.framework */,
+				EECF345229A88F43006D0B87 /* libc++.tbd */,
+				EECF345029A88F37006D0B87 /* CoreGraphics.framework */,
+				EECF344E29A88F30006D0B87 /* QuartzCore.framework */,
+				EECF344C29A88F2A006D0B87 /* CoreText.framework */,
+				EECF344A29A88F23006D0B87 /* OpenGLES.framework */,
+				EECF344829A88F1C006D0B87 /* GLKit.framework */,
+				EECF344629A88F16006D0B87 /* AVKit.framework */,
+				EECF344429A88F0F006D0B87 /* AVFoundation.framework */,
+				EECF344229A88F08006D0B87 /* MediaPlayer.framework */,
+				EECF344029A88EFF006D0B87 /* CoreMedia.framework */,
+				EECF343E29A88EF7006D0B87 /* JavaScriptCore.framework */,
+				ABAB0BEE3759E2AFA341F3F8 /* libPods-Runner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +154,8 @@
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
+				670DBD3698EF472D330C5139 /* Pods */,
+				8FB1C360FE48AF684C4BA918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,12 +198,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
+				D4CF26B2546070A30C0923AF /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				7D7A6C89BDFC0013E6C300F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +277,23 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
 		};
+		7D7A6C89BDFC0013E6C300F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +307,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
+		D4CF26B2546070A30C0923AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
